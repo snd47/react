@@ -1,0 +1,41 @@
+.articles {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.itemList {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px darkgray;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.itemList>img {
+    margin-bottom: 15px;
+
+}
+
+.symb {
+    font-size: 32px;
+    color: forestgreen;
+
+
+
+}
+.price {
+    font-size: 20px;
+    color: darkslategrey;
+    font-weight: bold;
+
+
+}
+.priceLabel {
+    font-size: 16px;
+
+}
